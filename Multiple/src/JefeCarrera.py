@@ -5,5 +5,5 @@
 __author__ = "Andrés Aquin"
 __date__ = "$18-04-2021 01:19:40 AM$"
 
-if __name__ == "__main__":
-    print "Hello World"
+class JefeCarrera():
+    
