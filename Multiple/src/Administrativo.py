@@ -2,7 +2,7 @@
 # To change this template file, choose Tools | Templates
 # and open the template in the editor.
 
-__author__ = "Andrés Aquin"
+__author__ = "Andres Aquin"
 __date__ = "$18-04-2021 01:19:17 AM$"
 
 class Administrativo():
