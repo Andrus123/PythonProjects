@@ -20,7 +20,4 @@ class Administrativo():
     def mostrar(self):
         print("Item. "+str(self.item))
         print("Fecha de ingreso: "+self.fechaIngreso)
-        
-        
     
-        

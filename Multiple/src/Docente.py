@@ -5,6 +5,7 @@
 __author__ = "Andres Aquin"
 __date__ = "$18-04-2021 01:18:51 AM$"
 
+
 class Docente():
     def __init__(self, categoria, tipo):
         self.categoria=categoria
@@ -32,4 +33,5 @@ class Docente():
         print("Categoria: "+self.getCategoria())
         print("Tipo: "+self.tipo)
         
+    
         
