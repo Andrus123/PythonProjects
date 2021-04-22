@@ -5,7 +5,8 @@
 __author__ = "Andres Aquin"
 __date__ = "$18-04-2021 01:19:17 AM$"
 
-class Administrativo():
+from Persona import Persona
+class Administrativo(Persona):
     def __init__(self, item, fechaIngreso):
         self.item=item
         self.fechaIngreso=fechaIngreso
@@ -21,3 +22,6 @@ class Administrativo():
         print("Item. "+str(self.item))
         print("Fecha de ingreso: "+self.fechaIngreso)
     
+    def nombre(self):
+        print("gana Administrativo")
+        

@@ -5,8 +5,8 @@
 __author__ = "Andres Aquin"
 __date__ = "$18-04-2021 01:18:51 AM$"
 
-
-class Docente():
+from Persona import Persona
+class Docente(Persona):
     def __init__(self, categoria, tipo):
         self.categoria=categoria
         self.tipo=tipo
@@ -33,5 +33,6 @@ class Docente():
         print("Categoria: "+self.getCategoria())
         print("Tipo: "+self.tipo)
         
-    
+    def nombre(self):
+        print("gana Docente")
         

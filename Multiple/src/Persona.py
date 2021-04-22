@@ -4,7 +4,10 @@
 
 __author__ = "Andres Aquin"
 __date__ = "$21-04-2021 15:23:10 PM$"
-    
+ 
+class Persona:
+    def nombre(self):
+        pass
 #    def __init__(self, nombre):
 #        self.nombre=nombre
 #    def leer(self):

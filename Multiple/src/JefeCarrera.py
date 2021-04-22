@@ -7,7 +7,8 @@ __date__ = "$18-04-2021 01:19:40 AM$"
 
 from Administrativo import Administrativo
 from Docente import Docente
-class JefeCarrera(Administrativo,Docente):
+class JefeCarrera(Docente,Administrativo):
+    pass
     def __init__(self, categoria, tipo, item, fechaIngreso, unidad):
         Docente.__init__(self, categoria, tipo)
         Administrativo.__init__(self, item, fechaIngreso)
@@ -30,7 +31,6 @@ class JefeCarrera(Administrativo,Docente):
         Docente.mostrar(self)
         Administrativo.mostrar(self)
         print("Unidad: ", self.unidad)
-        
     
 #    def diamante(self):
 #        Docente.diamante(self)
